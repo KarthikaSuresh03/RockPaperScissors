@@ -1,0 +1,152 @@
+body {
+  background-color: #120a00;
+  margin: 0px;
+  padding: 0px;
+}
+#content {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #503716;
+  margin: auto;
+  margin-top: 10vh;
+  padding: 0px;
+}
+h2 {
+  font-size: 1.25rem;
+  margin: 0px;
+  color: #fffdfb;
+}
+button {
+  background-color: #40485d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 10px;
+  width: 20%;
+  height: 4rem;
+  color: #180d00;
+  font-size: 1rem;
+  border: solid 3px #180d00;
+  border-radius: 10px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #180d00;
+  color: #40485d;
+  border: solid 3px #40485d;
+}
+#start-screen {
+  display: block;
+  height: 60vh;
+  width: 60vw;
+}
+#play-screen {
+  display: none;
+  height: 60vh;
+  width: 60vw;
+}
+#scores {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  height: 10vh;
+  width: 60vw;
+}
+#scores h2 {
+  width: 20%;
+}
+#gap {
+  width: 60%;
+  height: 5vh;
+}
+#display-texts {
+  display: flex;
+  position: fixed;
+  margin-top: 10vh;
+  height: 20vh;
+  width: 60vw;
+}
+#display-texts h2 {
+  display: flex;
+  position: fixed;
+  width: 60vw;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+}
+#round-description {
+  margin-top: 2.5vh;
+}
+#round-result {
+  margin-top: 10vh;
+}
+#game-buttons {
+  margin-top: 30vh;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  height: 30vh;
+}
+#gameover-screen {
+  display: none;
+  position: fixed;
+  margin-top: 30vh;
+  height: 30vh;
+  width: 60vw;
+}
+#game-over {
+  display: flex;
+  position: fixed;
+  width: 60vw;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+}
+#win-text {
+  display: flex;
+  position: fixed;
+  width: 60vw;
+  height: 5vh;
+  margin-top: 6.5vh;
+  align-items: center;
+  justify-content: center;
+}
+#restart {
+  display: flex;
+  position: fixed;
+  width: 60vw;
+  height: 17vh;
+  margin-top: 13vh;
+  align-items: center;
+  justify-content: center;
+}
+#max {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+}
+#number-text {
+  padding-right: 1rem;
+}
+#max-score {
+  height: 1.5rem;
+  width: 3rem;
+  font-size: 0.8rem;
+  background-color: #fffdfb;
+  border: solid 2px #40485d;
+  border-radius: 10px;
+}
+#play-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 5vh;
+}
