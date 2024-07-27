@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Rock Paper Scissors</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div id="content">
+			<div id="start-screen">
+				<div id="max">
+					<h2 id="number-text">Max. Points:</h2>
+					<input type="number" name="max-score" id="max-score" min="1" value="1">
+				</div>
+				<button id="play-btn" onclick="startGame()">Play Game</button>
+			</div>
+			<div id="play-screen">
+				<div id="scores">
+					<h2>Player Score: <span id="player-score">0</span></h2>
+					<div id="gap"></div>
+					<h2>Computer Score: <span id="computer-score">0</span></h2>
+				</div>
+				<div id="display-texts">
+					<h2 id="round-description"></h2>
+					<h2 id="round-result"></h2>
+				</div>
+				<div id="game-buttons">
+					<button id="rock" onclick="setRock()">Rock</button>
+					<button id="paper" onclick="setPaper()">Paper</button>
+					<button id="scissors" onclick="setScissors()">Scissors</button>
+				</div>
+				<div id="gameover-screen">
+					<h2 id="game-over">GAME OVER!</h2>
+					<h2 id="win-text"></h2>
+					<div id="restart">
+						<button id="restart-btn" onclick="reset()">Play Again</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>        
+	</body>
+</html>
